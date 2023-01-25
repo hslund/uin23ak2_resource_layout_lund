@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --lblue: #25DFE6;
+    --white: #fff;
+    --gray: #707070;
+    --lgray: #b7b7b7;
+    --slgray: #ececec;
+    --maxwidth: 1200px;
+    --rootsize: 20px; /*Tatt fra forelesning*/
+}
+
+header {
+    border: solid 1px var(--lgray);
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--gray);
+    font-family: 'raleway', sans-serif;
+    font-size: var(--rootsize);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.container {
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    border-bottom: solid 5px var(--lblue);
+    padding: 1rem 0;
+
+
+}
+nav a {
+    text-decoration: none;
+    border: solid 1px var(--lgray);
+    border-bottom: none;
+    color: var(--gray);
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+}
+
+nav a.active {
+    color: var(--white);
+    background-color: var(--lblue);
+    border: var(--lblue);
+
+}
+
+main {
+    padding: 1rem 2rem;
+    border: solid 1px var(--lgray); 
+    border-top: none;
+}
+
+main h1{
+    font-weight: bold;
+}
