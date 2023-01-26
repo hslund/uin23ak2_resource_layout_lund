@@ -61,12 +61,29 @@ nav a {
     padding: 1rem 1.5rem;
 }
 
+nav .actButton {
+    text-decoration: none;
+    border: solid 1px var(--lgray);
+    border-bottom: none;
+    color: var(--gray);
+    background-color: var(--white);
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    margin: none;
+}
+
+nav a:hover{
+    background-color: var(--slgray);
+    transition: ease-in-out .25s; 
+}
+
 nav a.active {
     color: var(--white);
     background-color: var(--lblue);
     border: var(--lblue);
 
 }
+
 
 main {
     padding: 1rem 2rem;
@@ -77,3 +94,4 @@ main {
 main h1{
     font-weight: bold;
 }
+

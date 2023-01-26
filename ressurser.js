@@ -94,3 +94,8 @@ const resources = [
         ]
     },
 ]
+
+
+function tabActivate() {
+
+}
